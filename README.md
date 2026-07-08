@@ -1,40 +1,50 @@
 # Bitborrow
 
-`Bitborrow` is a Next.js application. The repository contains route files, UI components, and package scripts for local development and production builds.
+## Project Tags
+
+- `Protocol`
+
+## Overview
+
+Bitborrow is a Next.js application with route files, components, and local development scripts.
 
 ## Features
 
-- Application routes/pages and reusable React components
-- Frontend build configuration for a modern web app
+- User-facing frontend or app interface
 
 ## Tech Stack
 
 - Next.js
 - React
-- TypeScript/JavaScript
+- Node.js
+- TypeScript
+- JavaScript
+- CSS
 
 ## Project Structure
 
-- `.eslintrc.json` - project file
-- `.gitignore` - project file
-- `README.md` - project documentation
-- `app` - application routes and pages
+- `.eslintrc.json` - project file or directory
+- `.gitignore` - project file or directory
+- `app` - application routes and screens
 - `components` - reusable UI components
-- `components.json` - project file
-- `hooks` - project directory
-- `lib` - project directory
-- `next.config.js` - project file
-- `package-lock.json` - project file
+- `components.json` - reusable UI components
+- `hooks` - project file or directory
+- `lib` - project file or directory
+- `next.config.js` - project file or directory
+- `package-lock.json` - project file or directory
 - `package.json` - Node package metadata and scripts
-- `postcss.config.js` - project file
+- `postcss.config.js` - project file or directory
+- `tailwind.config.ts` - project file or directory
+- `tsconfig.json` - project file or directory
 
 ## Getting Started
 
 ### Prerequisites
 
+- Git
 - Node.js 18+
 
-### Setup
+### Setup and Run
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/Bitborrow.git
@@ -46,31 +56,31 @@ npm install
 npm run dev
 ```
 
-## Available Commands
+## Commands
 
-- `package.json` - scripts: `dev`, `build`, `start`, `lint`
+- `package.json`: `dev`, `build`, `start`, `lint`
 
 ## Configuration
 
-- No required environment variables are documented yet. Add them here when the project needs configuration.
+- Store private keys, RPC URLs, wallet mnemonics, and API keys in a local `.env` file only.
 
 ## Testing and Quality
 
 - From the repository root, run `npm run lint`.
 - From the repository root, run `npm run build`.
 
-## Roadmap
+## Documentation Notes
 
-- Keep setup instructions aligned with the actual project workflow.
-- Add screenshots, architecture notes, or API examples as the implementation grows.
-- Document deployment steps once the hosting target is finalized.
+- Keep this README aligned with the actual source layout and commands.
+- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
+- Update the project tags when the scope changes.
 
 ## Contributing
 
-1. Create a feature branch.
-2. Make focused changes and update documentation when behavior changes.
+1. Create a focused branch for the change.
+2. Update code and documentation together.
 3. Run the relevant checks before opening a pull request.
 
 ## License
 
-No license file is currently included. Add one before distributing or reusing this project publicly.
+No license file is currently committed. Add one before distributing this project publicly.
